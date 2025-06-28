@@ -88,6 +88,7 @@ table {
 img {
     height: 150px;
     width: auto;
+    padding: 150px 0;
 }
 
 #crystalball {
@@ -100,7 +101,33 @@ img {
 body {
     font-family: var(--fonts);
     color: var(--seasalt);
-    line-height: 1.5;
+    line-height: 1.25;
     font-weight: 300;
+    box-sizing: border-box;
+}
+
+/* gen styles */ 
+
+h1, h2, h3 {
+    font-weight: bold; 
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+p {
+    max-width: 60ch;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+/* image container */
+
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
