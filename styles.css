@@ -68,3 +68,21 @@ table {
 
     /* filter */
 }
+
+/* video bg image */
+
+#starrynight {
+    position: fixed; 
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+/* gen body styling */
+
+body {
+    font-family: var(--fonts);
+    color: var(--seasalt);
+    line-height: 1.5;
+    font-weight: 300;
+}
