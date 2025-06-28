@@ -86,3 +86,8 @@ body {
     line-height: 1.5;
     font-weight: 300;
 }
+
+img {
+    height: 150px;
+    width: auto;
+}
