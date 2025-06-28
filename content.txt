@@ -1,0 +1,72 @@
+MAIN
+
+MENU [portfolio, github, home]
+
+THE ARCANE EYE 
+
+Hello, fine seeker of fortune! This web application has been painstakingly designed to allow you to draw back the veil of the infinite and 
+glimpse the multitudes of possibilities that make up your many futures. 
+
+Or, honestly, whether or not you should get takeout for lunch.
+
+[image placeholder row] - eye, crystal ball, eye 
+
+FORM
+
+[ask me anything...] placeholder text 
+
+[form output - answer from SOOTHSAYER function]
+
+FOOTER 
+
+copyright info, educational purposes only
+
+/* CSS HEX */
+--rich-black: #040f0fff;
+--paynes-gray: #546d8eff;
+--carolina-blue: #81b5dbff;
+--non-photo-blue: #a5deecff;
+--cream: #feffd6ff;
+
+/* CSS HSL */
+--rich-black: hsla(180, 58%, 4%, 1);
+--paynes-gray: hsla(214, 26%, 44%, 1);
+--carolina-blue: hsla(205, 56%, 68%, 1);
+--non-photo-blue: hsla(192, 65%, 79%, 1);
+--cream: hsla(61, 100%, 92%, 1);
+
+/* SCSS HEX */
+$rich-black: #040f0fff;
+$paynes-gray: #546d8eff;
+$carolina-blue: #81b5dbff;
+$non-photo-blue: #a5deecff;
+$cream: #feffd6ff;
+
+/* SCSS HSL */
+$rich-black: hsla(180, 58%, 4%, 1);
+$paynes-gray: hsla(214, 26%, 44%, 1);
+$carolina-blue: hsla(205, 56%, 68%, 1);
+$non-photo-blue: hsla(192, 65%, 79%, 1);
+$cream: hsla(61, 100%, 92%, 1);
+
+/* SCSS RGB */
+$rich-black: rgba(4, 15, 15, 1);
+$paynes-gray: rgba(84, 109, 142, 1);
+$carolina-blue: rgba(129, 181, 219, 1);
+$non-photo-blue: rgba(165, 222, 236, 1);
+$cream: rgba(254, 255, 214, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #040f0fff, #546d8eff, #81b5dbff, #a5deecff, #feffd6ff);
+$gradient-right: linear-gradient(90deg, #040f0fff, #546d8eff, #81b5dbff, #a5deecff, #feffd6ff);
+$gradient-bottom: linear-gradient(180deg, #040f0fff, #546d8eff, #81b5dbff, #a5deecff, #feffd6ff);
+$gradient-left: linear-gradient(270deg, #040f0fff, #546d8eff, #81b5dbff, #a5deecff, #feffd6ff);
+$gradient-top-right: linear-gradient(45deg, #040f0fff, #546d8eff, #81b5dbff, #a5deecff, #feffd6ff);
+$gradient-bottom-right: linear-gradient(135deg, #040f0fff, #546d8eff, #81b5dbff, #a5deecff, #feffd6ff);
+$gradient-top-left: linear-gradient(225deg, #040f0fff, #546d8eff, #81b5dbff, #a5deecff, #feffd6ff);
+$gradient-bottom-left: linear-gradient(315deg, #040f0fff, #546d8eff, #81b5dbff, #a5deecff, #feffd6ff);
+$gradient-radial: radial-gradient(#040f0fff, #546d8eff, #81b5dbff, #a5deecff, #feffd6ff);
+
+
+CREDS
+GIF by <a href="https://pixabay.com/users/u_jnera66lrn-38236739/?utm_source=link-attribution&utm_medium=referral&utm_campaign=animation&utm_content=7088">u_jnera66lrn</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=animation&utm_content=7088">Pixabay</a>

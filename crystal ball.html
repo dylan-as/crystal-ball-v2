@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="dylan sauer">
+    <meta name="description" content="a virtual magic 8 ball for all your modern divination needs">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-16x16.png">
+
+    <!-- stylesheets here -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+    <title>THE ARCANE EYE</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>The Arcane Eye</h1>
+
+        <nav>
+            <ul>
+                <li>portfolio</li>
+                <li>github</li>
+                <li>home</li>
+                <li>further reading</li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section>
+            <p>Hello, fine seeker of fortune! This web application has been painstakingly designed to allow you to draw
+                back the veil of the infinite and
+                glimpse the multitudes of possibilities that make up your many futures.</p>
+
+            <p>Or, honestly, whether or not you should get takeout for lunch.</p>
+        </section>
+
+        <section id="images">
+
+            <div>
+                <img src="images/eyepix.png" alt="a stylized, pixelated image of an eye">
+            </div>
+
+            <div>
+                <img src="images/crystalball.png" alt="a stylized, pixelated image of a crystal ball">
+            </div>
+
+            <div>
+                <img src="images/eyepix.png" alt="a stylized, pixelated image of an eye">
+            </div>
+        </section>
+
+        <div id="fortune"></div>
+
+        <section>
+
+            <div>
+                <form id="question-bar">
+                    <input id="question" type="text" placeholder="ask me anything...">
+                </form>
+            </div>
+
+            <div>
+                <button class="diviner" onclick="tellFortune()">click to divine!</button>
+            </div>
+
+        </section>
+
+        <script src="./crystal ball.js"></script>
+    </main>
+
+    <footer>
+        <p>dylan-as, &copy;2025</p>
+    </footer>
+
+</body>
+
+</html>
