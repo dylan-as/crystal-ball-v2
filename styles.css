@@ -69,13 +69,30 @@ table {
     /* filter */
 }
 
-/* video bg image */
+/* video & image styling */
 
 #starrynight {
     position: fixed; 
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+}
+
+#staticfallback {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+}
+
+img {
+    height: 150px;
+    width: auto;
+}
+
+#crystalball {
+    height: 400px;
+    width: auto;
 }
 
 /* gen body styling */
@@ -87,7 +104,3 @@ body {
     font-weight: 300;
 }
 
-img {
-    height: 150px;
-    width: auto;
-}
