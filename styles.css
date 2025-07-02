@@ -156,6 +156,11 @@ p {
     font-weight: 700;
 }
 
+#dropbtn:hover {
+    color: aquamarine;
+    cursor: grab;
+}
+
 #dropdown-content a {
     color: var(--seasalt);
     display: block;
@@ -183,15 +188,52 @@ p {
 
 /* form and answer box */
 
-#fortune {
-    padding: 4rem 8rem;
-}
-
 main div {
     text-align: center;
     margin: auto;
 }
 
+#fortune {
+    padding: 4rem 8rem;
+}
+
+form {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+#question {
+    font-family: var(--fonts);
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--seasalt);
+    size: 65ch;
+    color: var(--eerie-blk)
+}
+
+
+#question:focus::placeholder {
+    color: transparent;
+}
+
+#diviner {
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+#diviner:hover {
+    color: aquamarine;
+    cursor:grab;
+}
+
+#fortune {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+}
 
 /* keyframes */
 
