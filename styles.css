@@ -86,9 +86,10 @@ table {
 }
 
 img {
-    height: 150px;
+    height: 100px;
     width: auto;
-    padding: 150px 0;
+    padding: 6rem 2rem;
+    opacity: .65;
 }
 
 #crystalball {
@@ -110,6 +111,15 @@ header, main, footer {
     font-family: var(--fonts);
 }
 
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 3rem;
+
+}
+
 
 /* gen styles */ 
 
@@ -120,7 +130,7 @@ h1, h2, h3 {
 h1 {
     font-size: 8rem;
     text-align: center;
-    padding: 4rem;
+    padding: 4rem 2rem;
 }
 
 p {
@@ -183,16 +193,14 @@ main section {
 #dropdown-content a {
     color: var(--seasalt);
     display: block;
-    padding: 10px 16px;
+    padding: 10px 5px;
     text-decoration: none;
     font-size: 2.5rem;
-
 }
 
 #dropdown-content a:hover {
     color: aquamarine;
 }
 
-/* header styling */
 
 
