@@ -181,6 +181,17 @@ p {
     text-decoration: none;
 }
 
+/* form and answer box */
+
+#fortune {
+    padding: 4rem 8rem;
+}
+
+main div {
+    text-align: center;
+    margin: auto;
+}
+
 
 /* keyframes */
 
