@@ -235,6 +235,12 @@ form {
     font-size: 4rem;
 }
 
+/* footer */
+
+footer p {
+    font-size: 2rem;
+}
+
 /* keyframes */
 
 @keyframes shake {
