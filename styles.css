@@ -85,16 +85,15 @@ table {
     z-index: -2;
 }
 
-img {
-    height: 100px;
-    width: auto;
-    padding: 6rem 2rem;
-    opacity: .65;
-}
 
 #crystalball {
-    height: 400px;
+    height: 250px;
     width: auto;
+    opacity: .85;
+}
+
+#crystalball:hover {
+    animation: shake 2.0s;
 }
 
 /* gen body styling */
@@ -112,14 +111,11 @@ header, main, footer {
 }
 
 header section {
-    display: flex;
+    display: flex; 
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: auto;
-    padding: 3rem;
-
+    justify-content: center;
+    align-items: center;
 }
-
 
 /* gen styles */ 
 
@@ -128,9 +124,8 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 8rem;
-    text-align: center;
-    padding: 4rem 2rem;
+    font-size: 10rem;
+    margin: auto;
 }
 
 p {
@@ -140,26 +135,11 @@ p {
     margin: 0 auto;
 }
 
-/* image container */
-
-#images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-main section {
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-}
-
-/* nav dropdown */
-
 .button {
     all:unset;
 }
+
+/* nav dropdown */
 
 #dropdown {
     display: inline-block;
@@ -167,27 +147,13 @@ main section {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 1rem;
 }
 
 #dropbtn {
-    font-size: 4rem;
+    font-size: 5rem;
     letter-spacing: .5rem;
     font-family: var(--fonts);
     font-weight: 700;
-}
-
-/* triggers drop on hover */
-
-#dropdown:hover #dropdown-content {display: block}
-
-/* defaults dropdown-content to hidden */
-
-#dropdown-content {
-    display: none;
-    position: absolute;
-    box-shadow: none;
-    text-decoration: none;
 }
 
 #dropdown-content a {
@@ -202,5 +168,34 @@ main section {
     color: aquamarine;
 }
 
+/* --triggers drop on hover */
+
+#dropdown:hover #dropdown-content {display: block}
+
+/* --defaults dropdown-content to hidden */
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+
+/* keyframes */
+
+@keyframes shake {
+    0%  {transform: translate(1px, 1px) rotate(1deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 
 
